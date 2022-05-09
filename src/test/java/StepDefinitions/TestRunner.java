@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
     	//tags= {"@regression,@sanity"},
     	glue = {"StepDefinitions"},
     	monochrome = true,
-    	dryRun=true,
+    //	dryRun=true,
     	plugin = {"pretty","html:test-output","json:test-output/cucumber.json"}
     	
     		
